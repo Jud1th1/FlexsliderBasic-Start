@@ -66,6 +66,21 @@ footer p {
 }
 
 
+/********** Flexslider Styles *********/
+/* Add our style changes to the slider here on our stylesheet as oppsed to changing the slider stylesheet. 
+That way if we ever have to update it we dont lose our changes*/
+.flexslider {
+	margin: 0 20px;
+	border: none;
+	border-radius: 0;
+}
+
+.flex-control-paging li a.flex-active {
+	background: #B40205;
+}
+
+
+
 /**************** Media Queries ****************/
 
 @media only screen and (min-width: 600px) {
